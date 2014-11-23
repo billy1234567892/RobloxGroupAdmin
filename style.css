@@ -1,0 +1,180 @@
+html{
+overflow-y:scroll;
+
+}
+
+
+#a:link {
+    color: #2222ff;
+text-decoration:none;
+}
+
+
+#a:visited {
+    color: #2222ff;
+}
+
+
+#a:hover {
+    color: #bb0000;
+text-decoration:underline;
+}
+
+
+#a:active {
+    color: #770000;
+}
+#header{
+border-bottom-style: solid;
+border-width: 2px;
+float:left;
+position:fixed;
+top:0px;
+width: 100%; 
+background-color:rgba(170,170,170,0.9);
+background-position:left;
+border-color:#bb0000;
+}
+body
+{
+margin: 0;
+padding: 0;
+border: 0;
+font-family:"Calibri";
+background-image:url("background.jpg");
+background-repeat:no-repeat;
+background-position:40%; 
+background-attachment:fixed;
+background-color:#aaaaaa;
+text-align:center;
+}
+#blur{/*
+animation: fadein 0s;
+    -moz-animation: fadein 0s; /* Firefox */
+    -webkit-animation: fadein 0s; /* Safari and Chrome */
+    -o-animation: fadein 0s; /* Opera */*/
+}
+
+#blurpic
+{
+position:fixed;
+left:calc(50% - 200px);
+top:calc(50% - 140px);
+opacity:0.8;
+  -webkit-filter: blur(6px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+z-index:-1;
+}
+table,th,td
+{
+background-color:rgba(170,170,170,0.5);
+float:center;
+margin: 0px auto;
+border:1px solid #666666;
+border-collapse:collapse;
+white-space:nowrap;
+}
+td
+{
+padding:5px;
+text-align:center;
+}
+th
+{
+background-color:#bb7777;
+}
+
+hr{
+border:0px;
+height: 1px;
+background: #000;
+}
+
+h2{
+text-shadow:1px 1px #777777;
+}
+
+
+#char{
+height:100;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+.logbutton {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff0000), color-stop(1, #610000) );
+	background:-moz-linear-gradient( center top, #ff0000 5%, #610000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#610000');
+	background-color:#ff0000;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #000000;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:26px;
+	line-height:26px;
+	width:75px;
+	text-decoration:none;
+	text-align:center;
+}
+.logbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #610000), color-stop(1, #ff0000) );
+	background:-moz-linear-gradient( center top, #610000 5%, #ff0000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#610000', endColorstr='#ff0000');
+	background-color:#610000;
+}.logbutton:active {
+	position:relative;
+	top:1px;
+}
